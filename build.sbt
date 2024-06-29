@@ -4,5 +4,6 @@ name := "snap"
 organization := "com.joinblink"
 version := "1.0"
 
-libraryDependencies += "org.scalactic" %% "scalactic" % "3.2.17"
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.17" % "test"
+libraryDependencies += "org.scalatestplus" %% "mockito-5-12" % "3.2.19.0" % "test"
+
