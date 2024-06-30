@@ -1,6 +1,6 @@
 ## Design decisions
 
-- The game and deal mechanisms are implemented with recursive functions, to avoid mutable state within the game. This means that changes to player state result in a new player.
+- The game and deal mechanisms are implemented with recursive functions, to avoid mutable state within the game. This means that changes to player state result in a new player. Mutable map is used within the deal function but not outside.
 
 
 ## Additional features
