@@ -9,6 +9,7 @@
 ## Future Improvements
 - The dealer was implemented with a map of String -> List[Card], but the game was implemented with List[Player]. With more time, this could be refactored so that both use the same mechanism and the same playerIterator could be reused.
 - Currently the snap function only returns the result of isMatch. This can be modified so that a user can call snap at some point during the game.
+- User input and validation could be extracted out and tested separately
 - Game details are currently printed out to the console, but in a real environment this can be replaced by a proper logging framework.
 
 
